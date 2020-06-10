@@ -7,16 +7,5 @@ You are required to sort the data based on the the K attribute and print the fin
 __author__      = "Siva Nagendra"
 __copyright__   = "Copyright 2020, Planet Earth"
 
-if __name__ == "__main__":
-    n = input().split()
-
-    # m = [1, 2, 33, 0]
-    for each in n:
-        print (each)
-        # if int(each) > 0:
-        #     if each == each[::-1]:
-        #         print (True)
-        #     else:
-        #         print (False)
-        # else:
-        #     print (False)
+N, n = int(input()), input().split()
+print (all([int(i)>0 for i in n]) and any([j == j [::-1]for j in n]))
