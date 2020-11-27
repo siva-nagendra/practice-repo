@@ -1,6 +1,7 @@
 '''
 Scraping club excercise 1:
 Extract given product detail such as title, desc and price.
+WebScraping using requests, BeautifulSoup and lxml.
 '''
 
 import requests

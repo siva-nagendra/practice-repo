@@ -1,5 +1,6 @@
 '''
 Scraping the quotes from https://quotes.toscrape.com using python
+WebScraping using requests, BeautifulSoup and lxml.
 '''
 import requests
 from bs4 import BeautifulSoup
